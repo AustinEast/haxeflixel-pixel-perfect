@@ -1,0 +1,43 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Flash",
+			"type": "fdb",
+			"request": "launch",
+			"program": "${workspaceFolder}/export/flash/bin/flixel-scale-test.swf",
+			"preLaunchTask": "debug: flash"
+		},
+		{
+			"name": "HTML5",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://127.0.0.1:3000",
+			"sourceMaps": true,
+			"webRoot": "${workspaceFolder}"
+		},
+		{
+			"name": "Windows",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceFolder}/export/windows/bin/flixel-scale-test.exe"
+		},
+		{
+			"name": "Linux",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceFolder}/export/linux64/bin/flixel-scale-test"
+		},
+		{
+			"name": "Mac",
+			"type": "hxcpp",
+			"request": "launch",
+			"program": "${workspaceFolder}/export/mac64/bin/flixel-scale-test.app/Contents/MacOS/flixel-scale-test"
+		},
+		{
+			"name": "Macro",
+			"type": "haxe-eval",
+			"request": "launch"
+		}
+	]
+}
