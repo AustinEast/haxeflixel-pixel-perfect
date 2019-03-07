@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="flixel-pixel-test" file="flixel-perfect-test" main="Main" version="0.0.1" company="HaxeFlixel" />
+	<app title="flixel-pixel-perfect" file="flixel-pixel-perfect" main="Main" version="0.0.1" company="austineast" />
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
