@@ -1,4 +1,4 @@
-# flixel-pixel-perfect
+# haxeflixel-pixel-perfect
 
 ![](example.gif)
 
